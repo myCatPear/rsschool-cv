@@ -1,5 +1,6 @@
 *,
-*::after. *::before {
+*::after,
+*::before {
   box-sizing: border-box;
 }
 html,
@@ -11,11 +12,22 @@ body {
 h1 {
   margin: 0;
   padding: 0;
+  color: #2c323d;
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  padding-left: 40px;
+  width: 30px;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+.caption_h3 {
+  font-family: Poppins, serif;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .header__inner {
@@ -26,18 +38,29 @@ h1 {
   width: 600px;
   background-color: #2c323d;
   color: #fff;
+  text-align: center;
+}
+img {
+  width: 400px;
+  height: 300px;
+}
+
+figcaption {
+  font-family: Poppins, serif;
+  font-weight: 500;
 }
 
 .header__profile {
   width: 100%;
-  background-color: #ecf6f6;
+  background-color: #c1cacf;
+  display: flex;
+  align-items: center;
 }
 
-.profile {
-  color: #2c323d;
-  font-family: Poppins;
-  font-size: 40px;
-  font-weight: 600;
-  padding-left: 40px;
-  width: 30px;
+.main {
+  margin-top: 20px;
+}
+.main__wrapper {
+  display: flex;
+  justify-content: space-between;
 }
