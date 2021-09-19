@@ -45,6 +45,11 @@
                                     href="https://github.com/myCatPear">github.com/myCatPear</a>
                             </span></li>
                     </ul>
+                    <h3 class="aside__contact caption_h3 language">Language:</h3>
+                    <ul class="contact_list">
+                        <li class="contact__list_item">Russian - Native</li>
+                        <li class="contact__list_item">English - A1</li>
+                    </ul>
                 </aside>
                 <div class="profile">
                     <section class="profile__about">
@@ -168,6 +173,49 @@
                     </section>
                     <section class="profile__code">
                         <h3 class="caption_h3 color_dark">My code example</h3>
+                        <p><a class="code_link color_dark" href="https://www.codewars.com/kata/54d81488b981293527000c8f"
+                                target="_blank">Link to
+                                the task</a></p>
+                        <pre>
+                            <code class="code">
+function sumPairs(ints, s) {
+let a = null;
+let b = null;
+let arr;
+const set = new Set();
+let min_step = ints.length;
+for (let i = 0; i <= ints.length - 1; i +=1) { 
+    a=ints[i]; 
+
+    if (set.has(a)) { 
+        continue; 
+    } else { 
+        set.add(a); 
+    }
+
+    b=ints.indexOf(s - a, i + 1);
+     if (b=="-1" ) continue; 
+     if (b - i < min_step) { 
+         arr=[a, ints[b]]; 
+         min_step=b - i; 
+        } 
+    }
+    return arr; 
+}
+                            </code>
+                        </pre>
+                    </section>
+                    <section class="profile__education">
+                        <h3 class="caption_h3 color_dark">Education</h3>
+                        <ul class="education_list">
+                            <li class="education_list-item">Ural State College Named After I. I. Polzunov. 2005-2009
+                            </li>
+                            <li class="education_list-item">Ural State Pedagogical Institute 2009 - 2014</li>
+                            <li class="education_list-item">Course: https://itgid.info/ Javascript 2.0
+                                <a href="https://itgid.info/certificate/view?Certificate%5Buid%5D=g2yvg8nctd"
+                                    class="code_link color_dark" target="_blank">Link to the certificate</a>
+                            </li>
+                        </ul>
                     </section>
                 </div>
             </div>
