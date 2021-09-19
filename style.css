@@ -1,0 +1,202 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #2c323d;
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 600;
+  padding-left: 40px;
+  width: 30px;
+}
+
+section {
+  padding-left: 40px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+section::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 50;
+  width: 100px;
+  height: 3px;
+  background-color: #2c323d;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.caption_h3 {
+  font-family: Poppins, serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.color_dark {
+  color: #2c323d;
+}
+
+.header__inner {
+  display: flex;
+}
+
+.header__logo {
+  background-color: #2c323d;
+  color: #fff;
+  text-align: center;
+}
+img {
+  width: 280px;
+  height: 200px;
+}
+
+figcaption {
+  font-family: Poppins, serif;
+  font-weight: 500;
+}
+
+.header__profile {
+  width: 100%;
+  background-color: #c1cacf;
+  display: flex;
+  align-items: center;
+}
+
+.main__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside {
+  background-color: #2c323d;
+  color: #fff;
+  padding-right: 62px;
+}
+
+.aside__contact {
+  padding-left: 40px;
+}
+
+.contact_list {
+  list-style: none;
+}
+
+.contact_list span {
+  display: block;
+}
+
+.contact_list span a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact__list_item {
+  font-family: Poppins, serif;
+  margin-top: 10px;
+  line-height: 18px;
+}
+
+.language {
+  margin-top: 50px;
+}
+
+.profile {
+  background-color: #c1cacf;
+}
+
+.profile__text {
+  font-family: Poppins, serif;
+  font-weight: 500;
+  padding-right: 20px;
+  margin-top: 25px;
+}
+
+.table {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Poppins, serif;
+  color: #2c323d;
+}
+
+.table__caption {
+  font-family: Poppins, serif;
+  font-weight: 700;
+}
+
+.table__list {
+  display: flex;
+  list-style-position: inside;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: circle;
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+}
+.table__list {
+  list-style-image: url(./img/star_white.png);
+}
+.table__item-activ {
+  list-style-image: url(./img/star_black.png);
+}
+
+.code_link {
+  display: inline-block;
+  margin-top: 10px;
+  font-family: Poppins, serif;
+  font-weight: 500;
+}
+
+.code {
+  display: block;
+  background-color: antiquewhite;
+  margin-right: 50px;
+}
+
+.education_list {
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.education_list-item {
+  font-family: Poppins, serif;
+  font-weight: 600;
+  color: #2c323d;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github_img {
+  width: 100px;
+  height: 41px;
+}
+
+.school_img {
+  width: 100px;
+  height: 47px;
+}
+
+.year {
+  font-family: Poppins, serif;
+  font-size: 25px;
+  font-weight: 700;
+}
