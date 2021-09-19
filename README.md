@@ -1,1 +1,1 @@
-https://myCatPear.github.io/rsschool-cv/cv
+https://myCatPear.github.io/rsschool-cv/
