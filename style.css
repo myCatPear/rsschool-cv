@@ -178,3 +178,25 @@ figcaption {
   font-weight: 600;
   color: #2c323d;
 }
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github_img {
+  width: 100px;
+  height: 41px;
+}
+
+.school_img {
+  width: 100px;
+  height: 47px;
+}
+
+.year {
+  font-family: Poppins, serif;
+  font-size: 25px;
+  font-weight: 700;
+}
