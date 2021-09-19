@@ -184,7 +184,7 @@ let b = null;
 let arr;
 const set = new Set();
 let min_step = ints.length;
-for (let i = 0; i <= ints.length - 1; i +=1) { 
+for (let i = 0; i &lt;= ints.length - 1; i +=1) { 
     a=ints[i]; 
 
     if (set.has(a)) { 
@@ -195,7 +195,7 @@ for (let i = 0; i <= ints.length - 1; i +=1) {
 
     b=ints.indexOf(s - a, i + 1);
      if (b=="-1" ) continue; 
-     if (b - i < min_step) { 
+     if (b - i &lt; min_step) { 
          arr=[a, ints[b]]; 
          min_step=b - i; 
         } 
